@@ -1,10 +1,4 @@
-public class Aluno {
-    private static int contadorIdAluno = 1;
-    private int idAluno;
-    private String nomeAluno;
-    private String dataNascimentoAluno;
-    private String cpfAluno;
-    private Curso cursoAluno;
+public
 
     public Aluno(String nome, String dataNascimento, String cpf, Curso curso) {
         idAluno = contadorIdAluno++;
